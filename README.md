@@ -53,6 +53,7 @@ Alternativ lokal in Postgres Datenbank *testuser* mit User *testuser* und Passwo
  - POST
  - Erzeugt Dummy-Objekte in der DB mit jeweiligen Referenzen zueinandner
  - nicht idempotent
+ - Anfrage kann evtl. etwa eine Minute dauern, falls Docker auf Windows über WSL2 läuft
  
 Beispielanfrage in cURL:
  
