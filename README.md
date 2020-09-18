@@ -132,7 +132,7 @@ Beispielantwort:
 ## TODOs / Verbesserungen
 
 - Projekt ist aktuell nur MVP
-- JUnit tests hinzufügen und damit evtl. zu Java 11 wechseln, da besserer HTTPClient zum Testen
+- JUnit tests hinzufügen und damit evtl. zu Java 11 wechseln, da besserer HTTPClient zum Testen. Aus Zeitgründen und anderen Bewerbungsprojekten leider nicht dazu gekommen. Aktuell hauptsächlich über cURL getestet.
 - Besseres Error-Handling. Aktuell wird nur NoResultException gefangen, ansonsten Standard JPA error handling
 - Datenbankkonfiguration sanitieren. Aktuell user/pw in web.xml / persistence.xml
 - Bessere Erzeugung der Dummy-Objekt
